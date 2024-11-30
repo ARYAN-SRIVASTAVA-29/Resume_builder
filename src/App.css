@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #1e293b, #000);
+    color: #fff;
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background: #2d3748;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .section-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-item {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background: #4a5568;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .section-item:hover {
+    background: #2b6cb0;
+  }
+  
+  .active-section {
+    background: #3182ce;
+  }
+  
+  /* Form */
+  .form {
+    background: #1a202c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2d3748;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-input:focus {
+    border: 2px solid #3182ce;
+  }
+  
+  .add-button {
+    padding: 10px 15px;
+    background: #2b6cb0;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #3182ce;
+  }
+  
