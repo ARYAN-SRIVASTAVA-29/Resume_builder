@@ -52,7 +52,7 @@ const Home = ({ setResumeData }) => {
 
   return (
     <div className="app">
-      <h1>Modern Resume Builder</h1>
+      <h1>Resume Builder &copy;Shivam Kumar</h1>
       <form onSubmit={handleFormSubmit} className="form">
         <h2>Personal Information</h2>
         <input
